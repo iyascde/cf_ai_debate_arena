@@ -1,0 +1,20 @@
+name = "cf-ai-debate-arena"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "DEBATE_SESSION"
+class_name = "DebateSession"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["DebateSession"]
+
+[[kv_namespaces]]
+binding = "DEBATE_HISTORY"
+id = "YOUR_KV_NAMESPACE_ID"
+preview_id = "YOUR_KV_PREVIEW_ID"
