@@ -229,5 +229,5 @@ Total scores determine the winner. All results are saved to KV.
 ## Author
 
 **Iyas Abdel Rahman**  
-First-year CS @ University of Washington  
+CS @ University of Washington  
 Built for Cloudflare Software Engineering Internship Application
